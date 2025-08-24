@@ -1,0 +1,116 @@
+/* Admin Users - Futuristic High-Tech Theme */
+
+/* Full-page background: dark cyber grid + animated glows */
+body {
+  color: #e5e7eb;
+  background-color: #0a0f1e;
+  background-image:
+    radial-gradient(1200px 800px at 0% 0%, rgba(0, 229, 255, 0.10), transparent 60%),
+    radial-gradient(1000px 800px at 100% 100%, rgba(124, 58, 237, 0.12), transparent 60%),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.05) 0 1px, transparent 1px 80px),
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.04) 0 1px, transparent 1px 80px),
+    linear-gradient(180deg, #0b1020, #0a0f1e);
+  background-size:
+    1200px 800px,
+    1000px 800px,
+    100% 100%,
+    100% 100%,
+    100% 100%;
+  background-position:
+    0% 0%,
+    100% 100%,
+    0 0,
+    0 0,
+    0 0;
+  background-attachment: fixed, fixed, fixed, fixed, fixed;
+  animation: adminTechnoShift 26s ease-in-out infinite;
+}
+
+@keyframes adminTechnoShift {
+  0%   { background-position: 0% 0%, 100% 100%, 0 0, 0 0, 0 0; }
+  50%  { background-position: 85% 15%, 15% 85%, 0 0, 0 0, 0 0; }
+  100% { background-position: 0% 0%, 100% 100%, 0 0, 0 0, 0 0; }
+}
+
+/* Layout container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Glass card */
+.card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(255, 255, 255, 0.04) inset;
+  padding: 0;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  overflow: hidden;
+}
+
+.card-header {
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: 16px 20px;
+  margin: 0 0 8px 0;
+  color: #e5e7eb;
+  background: linear-gradient(90deg, rgba(59, 130, 246, 0.18), rgba(99, 102, 241, 0.18));
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.card-body { padding: 18px 20px; }
+
+/* Table - dark glass with hover and zebra */
+.table {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  overflow: hidden;
+  color: #e5e7eb;
+}
+
+.table thead th {
+  color: #93c5fd;
+  background: rgba(2, 6, 23, 0.45);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.table tbody tr:nth-child(odd) { background: rgba(255, 255, 255, 0.02); }
+
+.table-hover tbody tr:hover { background: rgba(59, 130, 246, 0.12); }
+
+.table th, .table td { border-color: rgba(255, 255, 255, 0.08); color: #000000; }
+
+/* Buttons */
+.btn-warning {
+  background: linear-gradient(90deg, #f59e0b, #f97316);
+  border: 1px solid rgba(255, 158, 10, 0.7);
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(249, 115, 22, 0.35);
+}
+
+.btn-danger {
+  background: linear-gradient(90deg, #ef4444, #dc2626);
+  border: 1px solid rgba(239, 68, 68, 0.7);
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(239, 68, 68, 0.35);
+}
+
+.btn-warning:hover, .btn-danger:hover {
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+  transition: transform 160ms ease, filter 160ms ease, box-shadow 220ms ease;
+}
+
+.btn-pill { border-radius: 999px; }
+
+/* Utility */
+.text-center { color: #ebe5e5; }
+
+/* Accessibility: reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  body { animation: none !important; }
+  * { transition: none !important; }
+}
