@@ -15,22 +15,22 @@ className="carousel slide carousel-fade"
 data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="/image/Amine1.jpg" 
+      <img src="/Image/Amine6.jpg" 
       className="d-block w-100" 
       alt="..."width={1920} height={690} />
     </div>
     <div className="carousel-item active">
-      <img src="/image/Amine2.jpg" 
+      <img src="/Image/Amine2.jpg" 
       className="d-block w-100" 
       alt="..."width={1920} height={690} />
     </div>
     <div className="carousel-item">
-      <img src="/image/Amine3.jpg" 
+      <img src="/Image/Amine5.jpg" 
       className="d-block w-100" alt="..." 
       width={1920} height={690} />
     </div>
     <div className="carousel-item">
-      <img src="/image/Amine4.jpg" 
+      <img src="/Image/Amine4.jpg" 
       className="d-block w-100" alt="..." 
       width={1920} height={690} />
     </div>

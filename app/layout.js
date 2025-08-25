@@ -5,6 +5,8 @@ import Navigation from "./components/Navigation";
 import { Prompt } from 'next/font/google';
 import './globals.css'
 
+
+
 const prompt = Prompt({
   subsets: ['thai', 'latin'], // รองรับภาษาไทย
   weight: ['300', '400', '500', '600', '700'],
