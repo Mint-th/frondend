@@ -10,7 +10,7 @@ export default function Card() {
         <div className="row">
             <div className="col-md-4 mb-4">
                 <div className="card">
-                <img src="/image/car1.jpg" className="card-img-top img-responsive" alt="..."height={600}/>
+                <img src="/Image/car1.jpg" className="card-img-top img-responsive" alt="..."height={600}/>
                 <div className="card-body">
                     <p className="card-text">-</p>
                 </div>
@@ -19,7 +19,7 @@ export default function Card() {
 
             <div className="col-md-4 mb-4">
             <div className="card">
-                <img src="/image/car2.jpg" className="card-img-top" alt="..." height={600}/>
+                <img src="/Image/car2.jpg" className="card-img-top" alt="..." height={600}/>
                 <div className="card-body">
                     <p className="card-text">-</p>
                 </div>
@@ -27,7 +27,7 @@ export default function Card() {
             </div>
             <div className="col-md-4 mb-4">
             <div className="card">
-                <img src="/image/car3.jpg" className="card-img-top" alt="..." height={600}/>
+                <img src="/Image/car3.jpg" className="card-img-top" alt="..." height={600}/>
                 <div className="card-body">
                     <p className="card-text">-</p>
                 </div>
